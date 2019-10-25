@@ -20,7 +20,7 @@ services:
     volumes:
     - ./app/:/var/www/html/ # real time sync between host:guest folders
     ports:
-    - "8080:80"
+    - "8080:80" # host:guest
     # stdin_open: true # docker exec -i <container name> bash; shell access enabled for container
     # tty: true # docker exec -t <container name> bash; shell access enabled for container
 
